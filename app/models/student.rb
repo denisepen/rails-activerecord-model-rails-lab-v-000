@@ -1,6 +1,6 @@
 class Student < ActiveRecord::Base
 
   def to_s
-    @student.create
+    @student.new
   end
 end
