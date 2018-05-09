@@ -1,6 +1,7 @@
 class Student < ActiveRecord::Base
 
   def to_s
-    @student=Student.create
+    Student.create(:first_name, :last_name)
+    @student=
   end
 end
